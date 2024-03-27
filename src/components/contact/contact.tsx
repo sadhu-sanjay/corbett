@@ -155,7 +155,7 @@ export function ContactUs() {
 
   return (
     <div className={classes.wrapper}>
-      <SimpleGrid cols={2} spacing={50} breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
+      <SimpleGrid cols={2} spacing={50} style={{maxWidth: '1080px', marginLeft: 'auto', marginRight: 'auto'}} breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
         <div>
           <Title className={classes.title}>Contact us</Title>
           <Text className={classes.description} mt="sm" mb={30}>
