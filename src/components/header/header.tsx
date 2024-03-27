@@ -124,7 +124,7 @@ export function HeaderResponsive() {
           <Icon3dCubeSphere size={28} className={classes.text} />
 
           <Text className={classes.text} fw={700} fz="lg">
-            Diya Company Name
+            Shicane Tour & Travels
           </Text>
         </Group>
         
